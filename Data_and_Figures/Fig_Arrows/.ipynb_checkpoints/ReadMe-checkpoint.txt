@@ -1,0 +1,1 @@
+This folder has the plotting script for all the figures in the fig "Arrows_Full.pdf" as well as the plotting of the experimental curves in the schematic. The code to create the data found in the folder '/Data/ModelData/' Can be found at XXX (TBC)

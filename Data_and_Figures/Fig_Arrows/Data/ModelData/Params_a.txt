@@ -1,0 +1,1 @@
+# Params(seed=51, rand_array=None, replicas=200, lattice_length=42, t_max=1.0, Curve0=1.0, Curve1=1.0, Curve2=1.0, k_0=0.8, k_1=0.8, k_2=0.8, k_mem=2.5, pitch0=0.0, pitch1=0.0, pitch2=0.0, BindMem0=-0.8, BindMem1=-0.8, BindMem2=-0.8, FactorKa=2.718281828459045, FactorKoff=2.718281828459045)
