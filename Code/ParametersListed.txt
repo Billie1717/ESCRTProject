@@ -1,0 +1,52 @@
+
+
+The code Meta_curves.py along with script_det_numba.py run the escrt simulations on a lattice with given parameters (set it Meta_curves.py)
+Below are the parameters (& ranges) used for each figure that uses this code. Seeds are random.
+
+
+#-------------------Fig_Arrows-------------------#
+
+For fig_arrows, the exact code is run with the following parameters for each 
+
+
+    a) (everything the same) :
+
+    # Params(seed=51, rand_array=None, replicas=200, lattice_length=42, t_max=1.0, Curve0=1.0, Curve1=1.0, Curve2=1.0, k_0=0.8, k_1=0.8, k_2=0.8, k_mem=2.5, pitch0=0.0, pitch1=0.0, pitch2=0.0, BindMem0=-0.8, BindMem1=-0.8, BindMem2=-0.8, FactorKa=2.718281828459045, FactorKoff=2.718281828459045)
+
+    b) (sequential binding) :
+
+    # Params(seed=42, rand_array=None, replicas=200, lattice_length=42, t_max=1.0, Curve0=1.0, Curve1=1.0, Curve2=1.0, k_0=0.8, k_1=0.8, k_2=0.8, k_mem=2.5, pitch0=0.0, pitch1=1.0, pitch2=5.0, BindMem0=-0.8, BindMem1=-0.8, BindMem2=-0.8, FactorKa=2.718281828459045, FactorKoff=2.718281828459045)
+
+    c) (sequential unbinding) :
+
+    # Params(seed=10, rand_array=None, replicas=200, lattice_length=42, t_max=1.0, Curve0=1.0, Curve1=2.5, Curve2=8.0, k_0=0.8, k_1=0.8, k_2=0.8, k_mem=2.5, pitch0=0.0, pitch1=0.0, pitch2=0.0, BindMem0=-0.8, BindMem1=-2.5600000000000005, BindMem2=-9.600000000000001, FactorKa=2.718281828459045, FactorKoff=2.718281828459045)
+
+    d) (full sequentiality) :
+
+    # Params(seed=47, rand_array=None, replicas=200, lattice_length=42, t_max=1.0, Curve0=1.0, Curve1=2.5, Curve2=8.0, k_0=0.8, k_1=0.8, k_2=0.8, k_mem=2.5, pitch0=0.0, pitch1=1.0, pitch2=1.5, BindMem0=-0.8, BindMem1=-2.4000000000000004, BindMem2=-9.600000000000001, FactorKa=2.718281828459045, FactorKoff=2.718281828459045, N_neigh=4)
+
+
+
+#-------------------Fig_Tests-------------------#
+
+Lattice ::
+
+    # Params(seed=47, rand_array=None, replicas=100, lattice_length=42, t_max=2.0, Curve0=1.0, Curve1=2.5, Curve2=8.0, k_0=0.8, k_1=0.8, k_2=0.8, k_mem=2.5, pitch0=0.0, pitch1=1.0, pitch2=1.5, BindMem0=-0.8, BindMem1=-2.4000000000000004, BindMem2=-9.600000000000001, FactorKa=2.718281828459045, FactorKoff=2.718281828459045, N_neigh=4)
+
+    Where 'lattice_length' = {42, 84, 168, 210}
+
+Ron & Roff :: USES ANOTHER CODE, SEE Meta_curves_ron.py & script_det_numba_ron.py
+
+    But with the parameters:
+
+    Params(seed=48, rand_array=None, replicas=100, lattice_length=42, t_max=0.8, Curve0=1.0, Curve1=2.5, Curve2=8.0, k_0=2.5, k_1=2.5, k_2=2.5, k_mem=2.5, pitch0=0.0, pitch1=1.0, pitch2=1.5, BindMem0=-0.8, BindMem1=-2.4000000000000004, BindMem2=-8.24, FactorKa=0.5, FactorKoff=4.0)
+
+
+#-------------------Fig_Indentation-------------------#
+
+
+#-------------------Fig_DoSPlot-------------------#
+
+
+#-------------------Fig_Pitch-------------------#
+
