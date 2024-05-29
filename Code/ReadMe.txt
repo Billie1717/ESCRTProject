@@ -16,7 +16,7 @@ script_det_numba.py
 The following figures use data made with this pair:
 Fig_Arrows
 Fig_Tests (Lattice & Roff version)
-Fig_Indentation
+Fig_Indentation (Every line apart from "no type 1")
 Fig_DoSPlot
 Fig_Pitch
 
@@ -27,6 +27,15 @@ script_det_numba_ron.py
 
 Which creates data for the figure:
 Fig_Tests (Ron version)
+
+Another pair is for when there is no type 1:
+
+### where?
+
+Another pair is for exploring role of VPS4:
+
+Another pair is for exploring role of VPS4:
+
 
 
 
