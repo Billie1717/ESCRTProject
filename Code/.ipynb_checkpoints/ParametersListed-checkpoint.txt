@@ -81,3 +81,13 @@ With Pitch 1 swept as : pitch1 = (j)*0.2 j={0-20,1}
 #------------------Fig_EnBarrier------------------#
 
 Params(trials=100, switches=300, No_oth=10, Curve0=8.0, Curve1=2.5, Curve2=1.0, k_0=0.8, k_1=0.8, k_2=0.8, k_mem=2.5, pitch0=2.0, pitch1=1.0, pitch2=0.0, BindMem0=-9.200000000000001, BindMem1=-2.5600000000000005, BindMem2=-0.8)
+
+
+#------------------Fig_Vps4------------------#
+
+Params(seed=88, rand_array=None, replicas=150, lattice_length=42, t_max=6.0, Curve0=1.0, Curve1=2.5, Curve2=8.0, k_0=0.8, k_1=0.8, k_2=0.8, k_mem=2.5, pitch0=0.0, pitch1=1.0, pitch2=2.0, BindMem0=-0.8, BindMem1=-2.5600000000000005, BindMem2=-9.200000000000001, E_v=0, Th=0.45)
+
+
+#------------------Fig_Bindings------------------#
+
+#------------------Fig_Torsion------------------#

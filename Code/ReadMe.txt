@@ -43,12 +43,20 @@ The set of codes for creating the energy barrier plots ****
 The energy has to be sampled from adding monomers of a certain type to the lattice. This is done in /Code/PythonCode/Fig_EnergyBarrier/Metrop2Bindings3subs.py We choose a number of the 3rd subunit (subunit 0) to be on the lattice already (some average of the total subunits in the normal run) then we sample the lattice as we add subunits (1 & 2). The output is the total energy 
 
 
+#----------- CODE VERSION 4 -------------------#
+
+Another pair is for exploring role of VPS4:
+
+This has a different set of arguments so that an energy packet is given to subunits which are more frustrated. The extra arguments are 'Threshold' and 'energy packet', what is the threshold above which they will be given the packet and how much energy are they given. 
+
+#----------- CODE VERSION 5 -------------------#
+
+
+
+
 Another pair is for when there is no type 1:
 
 ### where?
-
-
-Another pair is for exploring role of VPS4:
 
 Another pair is for exploring role of Torsion:
 
