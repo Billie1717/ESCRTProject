@@ -51,6 +51,13 @@ This has a different set of arguments so that an energy packet is given to subun
 
 #----------- CODE VERSION 5 -------------------#
 
+For splitting up binding energy between membrane binding and filament binding
+This is all in the folder /PythonCode/Fig_BindSplit . The binding energy is split in two on line 233
+
+#----------- CODE VERSION 5 -------------------#
+
+
+In PythonCode/Fig_Torsion/ are another pair for exploring role of Torsion. These have a more detailed energy argument that takes torsional energy of filaments into account. 
 
 
 
@@ -58,14 +65,10 @@ Another pair is for when there is no type 1:
 
 ### where?
 
-Another pair is for exploring role of Torsion:
-
-Another pair is for exploring role of Bindings:
 
 
 
 
 
-
-
+Fig_TauVsN has its own small code which is a jupyter notebook inside the Fig folder
 

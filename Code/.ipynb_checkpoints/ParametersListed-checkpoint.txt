@@ -90,4 +90,6 @@ Params(seed=88, rand_array=None, replicas=150, lattice_length=42, t_max=6.0, Cur
 
 #------------------Fig_Bindings------------------#
 
+Params(seed=63, rand_array=None, replicas=200, lattice_length=42, t_max=6, Curve0=1.0, Curve1=2.5, Curve2=8.0, k_0=0.8, k_1=0.8, k_2=0.8, k_mem=2.5, pitch0=0.0, pitch1=1.0, pitch2=2.0, BindMem0=-0.0, BindMem1=-0.0, BindMem2=-0.0) (varying BindMem0, 1, 2, etc)
+
 #------------------Fig_Torsion------------------#
