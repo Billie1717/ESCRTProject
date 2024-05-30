@@ -20,6 +20,8 @@ Fig_Indentation (Every line apart from "no type 1")
 Fig_DoSPlot
 Fig_Pitch
 
+For Fig_DoSPlot and Tests, where it is necessary to output more than just the probability over time, & parameter sweeps are involved (one can find an example of a parameter sweep at the bottom of meta_curves.py) another code is used to condense the data anysis. These are Data_Proc.py and Meta_Data.py and output characteristics of probability curves which can then be used to calulate 'DoS. This is run after you already have run Meta_curves.py and 
+
 Another pair explores the effect of Ron Vs Roff energy dependency in rates:
 
 Meta_curves_ron.py
