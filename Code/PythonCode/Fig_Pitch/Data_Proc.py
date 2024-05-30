@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 # -*- coding: utf-8 -*-
 """
 Created on Thu Dec 17 16:55:23 2020
@@ -71,7 +71,7 @@ def DataProcess(
     # =============================================================================
     # #Finding FWTQM
     # =============================================================================
-    return maxProb0, maxProb1, maxProb2, LastProb0, LastProb1, LastProb2, P1t0, P2t0, P0t1, P2t1
+    return maxProb0, maxProb1, maxProb2, LastProb0, LastProb1, LastProb2, P1t0, P2t0,P0t1,P2t1,thalf0,thalf1,thalf2,halfmax0,halfmax1,halfmax2
                
 
 DataProcess_numba = numba.njit(DataProcess)

@@ -73,3 +73,6 @@ I wonder if these are stored somewhere?
 
 #-------------------Fig_Pitch-------------------#
 
+Params(seed=97, rand_array=None, replicas=300, lattice_length=42, t_max=3.0, Curve0=2.0, Curve1=2.0, Curve2=2.0, k_0=0.8, k_1=0.8, k_2=0.8, k_mem=2.5, pitch0=0.0, pitch1=0.0, pitch2=4.0, BindMem0=-0.8, BindMem1=-2.5600000000000005, BindMem2=-3.2)
+
+With Pitch 1 swept as : pitch1 = (j)*0.2 j={0-20,1}
