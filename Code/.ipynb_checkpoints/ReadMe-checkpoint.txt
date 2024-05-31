@@ -33,6 +33,8 @@ Another pair explores the effect of Ron Vs Roff energy dependency in rates:
 Meta_curves_ron.py
 script_det_numba_ron.py
 
+This code has the energy dependencies of the rates in the ron instead of roff (as in the original code). This is to test if the results still hold without this kind of assumption.
+
 Which creates data for the figure:
 Fig_Tests (Ron version)
 
@@ -40,14 +42,14 @@ Fig_Tests (Ron version)
 
 The set of codes for creating the energy barrier plots ****
 
-The energy has to be sampled from adding monomers of a certain type to the lattice. This is done in /Code/PythonCode/Fig_EnergyBarrier/Metrop2Bindings3subs.py We choose a number of the 3rd subunit (subunit 0) to be on the lattice already (some average of the total subunits in the normal run) then we sample the lattice as we add subunits (1 & 2). The output is the total energy 
+The energy has to be sampled from adding monomers of a certain type to the lattice. This is done in /Code/PythonCode/Fig_EnergyBarrier/Metrop2Bindings3subs.py We choose a number of the 3rd subunit (subunit 0) to be on the lattice already (some average of the total subunits in the normal run) then we sample the lattice as we add subunits (1 & 2). The output is the total energy.
 
 
 #----------- CODE VERSION 4 -------------------#
 
 Another pair is for exploring role of VPS4:
 
-This has a different set of arguments so that an energy packet is given to subunits which are more frustrated. The extra arguments are 'Threshold' and 'energy packet', what is the threshold above which they will be given the packet and how much energy are they given. 
+This has a different set of arguments so that an energy packet is given to subunits which are more frustrated. The extra arguments are 'Threshold, Th' and 'energy packet, En', what is the threshold above which they will be given the packet and how much energy are they given. 
 
 #----------- CODE VERSION 5 -------------------#
 
@@ -57,7 +59,7 @@ This is all in the folder /PythonCode/Fig_BindSplit . The binding energy is spli
 #----------- CODE VERSION 5 -------------------#
 
 
-In PythonCode/Fig_Torsion/ are another pair for exploring role of Torsion. These have a more detailed energy argument that takes torsional energy of filaments into account. 
+In PythonCode/Fig_Torsion/ are another pair for exploring role of Torsion. These have a more detailed energy argument that takes torsional energy of filaments into account. There is an extra argument which determines the fraction of the rigidity of the filaments in torsional or lateral rigidity. We sweep over difference in curvatures and this fraction, which has a transition at kT=DeltaC^2, as expected 
 
 
 

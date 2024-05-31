@@ -1,0 +1,5 @@
+To do list for a more complete repo:
+
+1) Properly comment 1x script_det_numba.py 
+2) Indentation plot parameters (especially No Type 1?, not sure how, where this was coded)
+3) Use only these codes to construct thesis figures and data. Update as needed. (At end, can delete all other code)
